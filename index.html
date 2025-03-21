@@ -1,55 +1,80 @@
-<header>
-    Star Burger
-</header>
-<nav>
-    <a href="#menu">Menu</a>
-    <a href="#about">About Us</a>
-    <a href="#contact">Contact</a>
-</nav>
-<div class="container">
-    <section id="menu">
-        <h2>Our Menu</h2>
-        <div class="card">🍔 Classic Burger - $7.99</div>
-        <div class="card">🍔 Cheeseburger - $8.99</div>
-        <div class="card">🍔 Bacon Burger - $9.99</div>
-        <div class="card">🍔 Veggie Burger - $7.99</div>
-        <div class="card">🍔 BBQ Burger - $10.99</div>
-    </section>
-    <section id="about">
-        <h2>About Us</h2>
-        <p>handcrafted burgers made with high-quality ingredients.</p>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>📍 317 Pirapora street, Betim</p>
-        <p>📞 (123) 4002-8922</p>
-    </section>
-</div>
-<header>
-    Star Burger
-</header>
-<nav>
-    <a href="#menu">Menu</a>
-    <a href="#about">About Us</a>
-    <a href="#contact">Contact</a>
-</nav>
-<div class="container">
-    <section id="menu">
-        <h2>Our Menu</h2>
-        <div class="card">🍔 Classic Burger - $7.99</div>
-        <div class="card">🍔 Cheeseburger - $8.99</div>
-        <div class="card">🍔 Bacon Burger - $9.99</div>
-        <div class="card">🍔 Veggie Burger - $7.99</div>
-        <div class="card">🍔 BBQ Burger - $10.99</div>
-    </section>
-    <section id="about">
-        <h2>About Us</h2>
-        <p>handcrafted burgers made with high-quality ingredients.</p>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>📍 317 Pirapora street, Betim</p>
-        <p>📞 (123) 4002-8922</p>
-    </section>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Burger</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Referência ao arquivo CSS -->
+</head>
+<body>
+    <header>
+        <h1>Star Burger</h1>
+    </header>
+
+    <nav>
+        <a href="#menu">Menu</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+        <a href="#testimonials">Testimonials</a>
+    </nav>
+
+    <div class="container">
+        <!-- Menu Section -->
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <div class="card">🍔 Classic Burger - $7.99</div>
+            <div class="card">🍔 Cheeseburger - $8.99</div>
+            <div class="card">🍔 Bacon Burger - $9.99</div>
+            <div class="card">🍔 Veggie Burger - $7.99</div>
+            <div class="card">🍔 BBQ Burger - $10.99</div>
+            <div class="card">🍔 Chicken Burger - $8.49</div>
+            <div class="card">🍔 Double Cheeseburger - $10.49</div>
+        </section>
+        
+        <!-- About Us Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Star Burger is passionate about crafting high-quality burgers with the best ingredients. We use fresh, locally sourced products to make each burger a delightful experience. Our goal is to provide great food and excellent customer service to all our customers.</p>
+            <p>Visit us today and experience the taste of freshly made gourmet burgers!</p>
+        </section>
+        
+        <!-- Testimonials Section -->
+        <section id="testimonials">
+            <h2>What Our Customers Say</h2>
+            <blockquote>
+                "The best burger I have ever had! So fresh and juicy, I can’t wait to come back!"
+                <footer>- John D.</footer>
+            </blockquote>
+            <blockquote>
+                "Amazing customer service and delicious food! Highly recommend Star Burger."
+                <footer>- Sarah L.</footer>
+            </blockquote>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>📍 317 Pirapora street, Betim</p>
+            <p>📞 (123) 930-540</p>
+            <p>Email: <a href="mailto:info@starburger.com">info@starburger.com</a></p>
+
+            <h3>Get in Touch</h3>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2025 Star Burger. All rights reserved.
+    </footer>
+</body>
+</html>
+
 
